@@ -1,7 +1,44 @@
+*{
+
+    margin:0;
+    padding: 0%;
+ 
+}
+
+h1{
+
+color: aliceblue;
+margin: 10px;
+
+
+}
+
+
 body{
 
     background-color: black;
 
+}
 
+.box, form{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;      /*espacamento massa*/
+}
+
+input{
+
+    width: 180px;
+    height: 20px;
+    padding: 0 10px 0 10px; /*alinhamento sentido horario comecando de cima*/
+
+}
+
+button{
+    width: 120px;
+    height: 20px;
 
 }
